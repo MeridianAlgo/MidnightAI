@@ -1,3 +1,8 @@
+import sys
+import os
+# Add the project root to sys.path to allow running scripts directly from the root
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import torch
 import pandas as pd
 import numpy as np
