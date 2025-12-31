@@ -1,0 +1,609 @@
+[2025-12-31T12:34:11.398378] --- SESSION 1 START (DB ID: 287) ---
+[2025-12-31T12:34:17.879096] Train Distribution: Class 0: 878, Class 1: 1816, Class 2: 989
+[2025-12-31T12:34:34.777772] --- Epoch 0 Ultra-Log Checkpoint ---
+[2025-12-31T12:34:34.778311] S1 E  0 | 15.8s | LR: 0.001000 | GradNorm: 5.8187
+   TRAIN: Loss: 0.9013 Acc: 35.4% | Dist: 1304/3683
+          Breakdown: [Focal: 0.3082, Ret: 0.0399, Vol: 0.0854, Sharpe: 0.0171]
+   VAL  : Loss: 0.6141 Acc: 26.3% | Dist: 49/186
+          Breakdown: [Focal: 0.3064, Ret: 0.0002, Vol: 0.0004, Sharpe: -0.9999]
+[2025-12-31T12:34:34.788493] NEW BEST VAL LOSS: 0.6141 (Saving...)
+[2025-12-31T12:34:49.730251] S1 E  1 | 14.9s | LR: 0.001000 | GradNorm: 1.1552
+   TRAIN: Loss: 0.5777 Acc: 38.9% | Dist: 1432/3683
+          Breakdown: [Focal: 0.2883, Ret: 0.0001, Vol: 0.0003, Sharpe: -0.0866]
+   VAL  : Loss: 0.5496 Acc: 51.1% | Dist: 95/186
+          Breakdown: [Focal: 0.2740, Ret: 0.0003, Vol: 0.0001, Sharpe: 0.9990]
+[2025-12-31T12:34:49.737646] NEW BEST VAL LOSS: 0.5496 (Saving...)
+[2025-12-31T12:35:04.920242] S1 E  2 | 15.2s | LR: 0.001000 | GradNorm: 1.1071
+   TRAIN: Loss: 0.5629 Acc: 42.4% | Dist: 1561/3683
+          Breakdown: [Focal: 0.2811, Ret: 0.0001, Vol: 0.0002, Sharpe: -0.1151]
+   VAL  : Loss: 0.5828 Acc: 44.1% | Dist: 82/186
+          Breakdown: [Focal: 0.2909, Ret: 0.0002, Vol: 0.0000, Sharpe: -0.9998]
+[2025-12-31T12:35:20.697188] S1 E  3 | 15.8s | LR: 0.001000 | GradNorm: 0.9503
+   TRAIN: Loss: 0.5461 Acc: 43.9% | Dist: 1615/3683
+          Breakdown: [Focal: 0.2727, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.0664]
+   VAL  : Loss: 0.5657 Acc: 46.8% | Dist: 87/186
+          Breakdown: [Focal: 0.2825, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.9991]
+[2025-12-31T12:35:35.904897] S1 E  4 | 15.2s | LR: 0.001000 | GradNorm: 1.0674
+   TRAIN: Loss: 0.5313 Acc: 47.1% | Dist: 1733/3683
+          Breakdown: [Focal: 0.2654, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.1623]
+   VAL  : Loss: 0.5416 Acc: 44.6% | Dist: 83/186
+          Breakdown: [Focal: 0.2707, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.5755]
+[2025-12-31T12:35:35.913532] NEW BEST VAL LOSS: 0.5416 (Saving...)
+[2025-12-31T12:35:50.819239] --- Epoch 5 Ultra-Log Checkpoint ---
+[2025-12-31T12:35:50.819782] S1 E  5 | 14.9s | LR: 0.001000 | GradNorm: 1.0143
+   TRAIN: Loss: 0.5173 Acc: 47.6% | Dist: 1753/3683
+          Breakdown: [Focal: 0.2584, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.2131]
+   VAL  : Loss: 0.5777 Acc: 39.8% | Dist: 74/186
+          Breakdown: [Focal: 0.2886, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.9923]
+[2025-12-31T12:36:05.633488] S1 E  6 | 14.8s | LR: 0.001000 | GradNorm: 1.1383
+   TRAIN: Loss: 0.5084 Acc: 50.7% | Dist: 1867/3683
+          Breakdown: [Focal: 0.2539, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.1588]
+   VAL  : Loss: 0.6571 Acc: 39.2% | Dist: 73/186
+          Breakdown: [Focal: 0.3283, Ret: 0.0001, Vol: 0.0002, Sharpe: -0.5487]
+[2025-12-31T12:36:20.566729] S1 E  7 | 14.9s | LR: 0.001000 | GradNorm: 1.2737
+   TRAIN: Loss: 0.5003 Acc: 51.2% | Dist: 1886/3683
+          Breakdown: [Focal: 0.2499, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.1310]
+   VAL  : Loss: 0.6020 Acc: 49.5% | Dist: 92/186
+          Breakdown: [Focal: 0.3007, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.9978]
+[2025-12-31T12:36:35.245487] S1 E  8 | 14.7s | LR: 0.001000 | GradNorm: 1.1642
+   TRAIN: Loss: 0.4671 Acc: 53.3% | Dist: 1963/3683
+          Breakdown: [Focal: 0.2333, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.1478]
+   VAL  : Loss: 0.5945 Acc: 36.6% | Dist: 68/186
+          Breakdown: [Focal: 0.2972, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.2437]
+[2025-12-31T12:36:50.081698] S1 E  9 | 14.8s | LR: 0.001000 | GradNorm: 1.2616
+   TRAIN: Loss: 0.4514 Acc: 54.8% | Dist: 2018/3683
+          Breakdown: [Focal: 0.2255, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.1652]
+   VAL  : Loss: 0.6882 Acc: 44.6% | Dist: 83/186
+          Breakdown: [Focal: 0.3440, Ret: 0.0000, Vol: 0.0001, Sharpe: -0.7964]
+[2025-12-31T12:37:04.791096] --- Epoch 10 Ultra-Log Checkpoint ---
+[2025-12-31T12:37:04.791096] S1 E 10 | 14.7s | LR: 0.001000 | GradNorm: 1.2686
+   TRAIN: Loss: 0.4620 Acc: 54.6% | Dist: 2010/3683
+          Breakdown: [Focal: 0.2308, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.2109]
+   VAL  : Loss: 0.6337 Acc: 45.7% | Dist: 85/186
+          Breakdown: [Focal: 0.3167, Ret: 0.0000, Vol: 0.0001, Sharpe: -0.5004]
+[2025-12-31T12:37:19.806892] S1 E 11 | 15.0s | LR: 0.000500 | GradNorm: 1.3745
+   TRAIN: Loss: 0.3912 Acc: 59.3% | Dist: 2185/3683
+          Breakdown: [Focal: 0.1954, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.2470]
+   VAL  : Loss: 0.6536 Acc: 42.5% | Dist: 79/186
+          Breakdown: [Focal: 0.3267, Ret: 0.0000, Vol: 0.0000, Sharpe: 0.3537]
+[2025-12-31T12:37:34.772842] S1 E 12 | 15.0s | LR: 0.000500 | GradNorm: 1.4567
+   TRAIN: Loss: 0.3669 Acc: 58.9% | Dist: 2170/3683
+          Breakdown: [Focal: 0.1833, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.3290]
+   VAL  : Loss: 0.8748 Acc: 40.9% | Dist: 76/186
+          Breakdown: [Focal: 0.4372, Ret: 0.0000, Vol: 0.0001, Sharpe: 0.5894]
+[2025-12-31T12:37:49.662865] S1 E 13 | 14.9s | LR: 0.000500 | GradNorm: 1.4529
+   TRAIN: Loss: 0.3537 Acc: 62.2% | Dist: 2292/3683
+          Breakdown: [Focal: 0.1767, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.2978]
+   VAL  : Loss: 0.6612 Acc: 45.7% | Dist: 85/186
+          Breakdown: [Focal: 0.3305, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.2418]
+[2025-12-31T12:38:04.381769] S1 E 14 | 14.7s | LR: 0.000500 | GradNorm: 1.5083
+   TRAIN: Loss: 0.3495 Acc: 62.3% | Dist: 2296/3683
+          Breakdown: [Focal: 0.1746, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.3722]
+   VAL  : Loss: 0.6950 Acc: 42.5% | Dist: 79/186
+          Breakdown: [Focal: 0.3473, Ret: 0.0000, Vol: 0.0000, Sharpe: 0.6965]
+[2025-12-31T12:38:18.888897] --- Epoch 15 Ultra-Log Checkpoint ---
+[2025-12-31T12:38:18.888897] S1 E 15 | 14.5s | LR: 0.000500 | GradNorm: 1.5027
+   TRAIN: Loss: 0.3087 Acc: 63.5% | Dist: 2338/3683
+          Breakdown: [Focal: 0.1542, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.3224]
+   VAL  : Loss: 1.0641 Acc: 47.3% | Dist: 88/186
+          Breakdown: [Focal: 0.5318, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.6123]
+[2025-12-31T12:38:33.766846] S1 E 16 | 14.9s | LR: 0.000500 | GradNorm: 1.7747
+   TRAIN: Loss: 0.3061 Acc: 62.8% | Dist: 2314/3683
+          Breakdown: [Focal: 0.1529, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.2874]
+   VAL  : Loss: 0.8267 Acc: 46.8% | Dist: 87/186
+          Breakdown: [Focal: 0.4132, Ret: 0.0000, Vol: 0.0001, Sharpe: -0.4645]
+[2025-12-31T12:38:48.671359] S1 E 17 | 14.9s | LR: 0.000250 | GradNorm: 1.5514
+   TRAIN: Loss: 0.2845 Acc: 65.5% | Dist: 2413/3683
+          Breakdown: [Focal: 0.1421, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.4596]
+   VAL  : Loss: 1.0529 Acc: 46.8% | Dist: 87/186
+          Breakdown: [Focal: 0.5263, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.6823]
+[2025-12-31T12:39:03.212104] S1 E 18 | 14.5s | LR: 0.000250 | GradNorm: 1.6360
+   TRAIN: Loss: 0.2483 Acc: 66.8% | Dist: 2462/3683
+          Breakdown: [Focal: 0.1240, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.3233]
+   VAL  : Loss: 1.0590 Acc: 47.8% | Dist: 89/186
+          Breakdown: [Focal: 0.5294, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.0457]
+[2025-12-31T12:39:17.988901] S1 E 19 | 14.8s | LR: 0.000250 | GradNorm: 1.6736
+   TRAIN: Loss: 0.2360 Acc: 66.4% | Dist: 2444/3683
+          Breakdown: [Focal: 0.1179, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.4034]
+   VAL  : Loss: 1.2634 Acc: 46.2% | Dist: 86/186
+          Breakdown: [Focal: 0.6316, Ret: 0.0000, Vol: 0.0000, Sharpe: 0.2725]
+[2025-12-31T12:39:17.989907] EARLY STOPPING at epoch 19. Validation loss hasn't improved in 15 epochs.
+[2025-12-31T12:39:25.545436] SESSION 1 COMPLETE. Best Val Loss: 0.5416
+[2025-12-31T12:39:35.574131] --- SESSION 2 START (DB ID: 288) ---
+[2025-12-31T12:39:41.576815] Train Distribution: Class 0: 878, Class 1: 1816, Class 2: 989
+[2025-12-31T12:39:56.063854] --- Epoch 0 Ultra-Log Checkpoint ---
+[2025-12-31T12:39:56.063854] S2 E  0 | 14.5s | LR: 0.001000 | GradNorm: 1.2725
+   TRAIN: Loss: 0.5267 Acc: 48.5% | Dist: 1787/3683
+          Breakdown: [Focal: 0.2595, Ret: 0.0011, Vol: 0.0023, Sharpe: -0.1984]
+   VAL  : Loss: 0.5860 Acc: 42.5% | Dist: 79/186
+          Breakdown: [Focal: 0.2928, Ret: 0.0000, Vol: 0.0000, Sharpe: 0.9084]
+[2025-12-31T12:40:10.837893] S2 E  1 | 14.8s | LR: 0.001000 | GradNorm: 1.1442
+   TRAIN: Loss: 0.4893 Acc: 50.5% | Dist: 1860/3683
+          Breakdown: [Focal: 0.2444, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.1723]
+   VAL  : Loss: 0.5748 Acc: 48.4% | Dist: 90/186
+          Breakdown: [Focal: 0.2873, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.5198]
+[2025-12-31T12:40:25.464685] S2 E  2 | 14.6s | LR: 0.001000 | GradNorm: 1.2078
+   TRAIN: Loss: 0.4876 Acc: 51.2% | Dist: 1886/3683
+          Breakdown: [Focal: 0.2436, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.1891]
+   VAL  : Loss: 0.6178 Acc: 38.7% | Dist: 72/186
+          Breakdown: [Focal: 0.3088, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.4891]
+[2025-12-31T12:40:39.774821] S2 E  3 | 14.3s | LR: 0.001000 | GradNorm: 1.1159
+   TRAIN: Loss: 0.4677 Acc: 52.9% | Dist: 1950/3683
+          Breakdown: [Focal: 0.2337, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.1584]
+   VAL  : Loss: 0.5976 Acc: 43.0% | Dist: 80/186
+          Breakdown: [Focal: 0.2987, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.8933]
+[2025-12-31T12:40:54.364699] S2 E  4 | 14.6s | LR: 0.001000 | GradNorm: 1.2423
+   TRAIN: Loss: 0.4530 Acc: 55.3% | Dist: 2035/3683
+          Breakdown: [Focal: 0.2263, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.1969]
+   VAL  : Loss: 0.5975 Acc: 43.5% | Dist: 81/186
+          Breakdown: [Focal: 0.2982, Ret: 0.0002, Vol: 0.0000, Sharpe: 0.9999]
+[2025-12-31T12:41:09.098431] --- Epoch 5 Ultra-Log Checkpoint ---
+[2025-12-31T12:41:09.098431] S2 E  5 | 14.7s | LR: 0.001000 | GradNorm: 1.3064
+   TRAIN: Loss: 0.4406 Acc: 55.3% | Dist: 2036/3683
+          Breakdown: [Focal: 0.2200, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.0959]
+   VAL  : Loss: 0.7164 Acc: 41.4% | Dist: 77/186
+          Breakdown: [Focal: 0.3580, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.6063]
+[2025-12-31T12:41:23.875963] S2 E  6 | 14.8s | LR: 0.001000 | GradNorm: 1.3181
+   TRAIN: Loss: 0.4157 Acc: 56.6% | Dist: 2085/3683
+          Breakdown: [Focal: 0.2077, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.2365]
+   VAL  : Loss: 0.6535 Acc: 46.2% | Dist: 86/186
+          Breakdown: [Focal: 0.3266, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.8581]
+[2025-12-31T12:41:38.628030] S2 E  7 | 14.7s | LR: 0.001000 | GradNorm: 1.4216
+   TRAIN: Loss: 0.3899 Acc: 57.7% | Dist: 2125/3683
+          Breakdown: [Focal: 0.1947, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.2409]
+   VAL  : Loss: 0.7656 Acc: 50.0% | Dist: 93/186
+          Breakdown: [Focal: 0.3827, Ret: 0.0000, Vol: 0.0001, Sharpe: 0.4263]
+[2025-12-31T12:41:53.360163] S2 E  8 | 14.7s | LR: 0.000500 | GradNorm: 1.4976
+   TRAIN: Loss: 0.3488 Acc: 60.3% | Dist: 2222/3683
+          Breakdown: [Focal: 0.1742, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.3918]
+   VAL  : Loss: 1.0519 Acc: 47.8% | Dist: 89/186
+          Breakdown: [Focal: 0.5258, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.8399]
+[2025-12-31T12:42:07.900497] S2 E  9 | 14.5s | LR: 0.000500 | GradNorm: 1.6873
+   TRAIN: Loss: 0.3199 Acc: 63.0% | Dist: 2321/3683
+          Breakdown: [Focal: 0.1597, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.0993]
+   VAL  : Loss: 1.0925 Acc: 39.2% | Dist: 73/186
+          Breakdown: [Focal: 0.5461, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.9404]
+[2025-12-31T12:42:22.605144] --- Epoch 10 Ultra-Log Checkpoint ---
+[2025-12-31T12:42:22.606148] S2 E 10 | 14.7s | LR: 0.000500 | GradNorm: 1.6638
+   TRAIN: Loss: 0.3045 Acc: 63.9% | Dist: 2355/3683
+          Breakdown: [Focal: 0.1521, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.3555]
+   VAL  : Loss: 1.1249 Acc: 49.5% | Dist: 92/186
+          Breakdown: [Focal: 0.5624, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.0123]
+[2025-12-31T12:42:37.294342] S2 E 11 | 14.7s | LR: 0.000500 | GradNorm: 1.6611
+   TRAIN: Loss: 0.2799 Acc: 64.7% | Dist: 2382/3683
+          Breakdown: [Focal: 0.1398, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.5015]
+   VAL  : Loss: 1.2592 Acc: 45.7% | Dist: 85/186
+          Breakdown: [Focal: 0.6295, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.5132]
+[2025-12-31T12:42:51.907286] S2 E 12 | 14.6s | LR: 0.000500 | GradNorm: 1.7368
+   TRAIN: Loss: 0.2519 Acc: 66.6% | Dist: 2453/3683
+          Breakdown: [Focal: 0.1259, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.4778]
+   VAL  : Loss: 1.2809 Acc: 49.5% | Dist: 92/186
+          Breakdown: [Focal: 0.6404, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.4253]
+[2025-12-31T12:43:07.291532] S2 E 13 | 15.4s | LR: 0.000500 | GradNorm: 1.6080
+   TRAIN: Loss: 0.2554 Acc: 67.2% | Dist: 2475/3683
+          Breakdown: [Focal: 0.1276, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.3791]
+   VAL  : Loss: 1.2221 Acc: 49.5% | Dist: 92/186
+          Breakdown: [Focal: 0.6109, Ret: 0.0000, Vol: 0.0000, Sharpe: 0.2939]
+[2025-12-31T12:43:22.226407] S2 E 14 | 14.9s | LR: 0.000250 | GradNorm: 1.7600
+   TRAIN: Loss: 0.2497 Acc: 66.2% | Dist: 2437/3683
+          Breakdown: [Focal: 0.1247, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.4617]
+   VAL  : Loss: 1.4072 Acc: 48.4% | Dist: 90/186
+          Breakdown: [Focal: 0.7036, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.9320]
+[2025-12-31T12:43:22.227851] EARLY STOPPING at epoch 14. Validation loss hasn't improved in 15 epochs.
+[2025-12-31T12:43:29.756224] SESSION 2 COMPLETE. Best Val Loss: 0.5416
+[2025-12-31T12:43:39.784906] --- SESSION 3 START (DB ID: 289) ---
+[2025-12-31T12:43:45.750662] Train Distribution: Class 0: 878, Class 1: 1816, Class 2: 989
+[2025-12-31T12:43:59.998535] --- Epoch 0 Ultra-Log Checkpoint ---
+[2025-12-31T12:43:59.998535] S3 E  0 | 14.2s | LR: 0.001000 | GradNorm: 1.1807
+   TRAIN: Loss: 0.5196 Acc: 48.4% | Dist: 1784/3683
+          Breakdown: [Focal: 0.2581, Ret: 0.0004, Vol: 0.0014, Sharpe: -0.0536]
+   VAL  : Loss: 0.5104 Acc: 44.1% | Dist: 82/186
+          Breakdown: [Focal: 0.2550, Ret: 0.0001, Vol: 0.0000, Sharpe: 0.9254]
+[2025-12-31T12:44:00.006208] NEW BEST VAL LOSS: 0.5104 (Saving...)
+[2025-12-31T12:44:14.935230] S3 E  1 | 14.9s | LR: 0.001000 | GradNorm: 1.1559
+   TRAIN: Loss: 0.5002 Acc: 49.9% | Dist: 1838/3683
+          Breakdown: [Focal: 0.2498, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.0347]
+   VAL  : Loss: 0.5505 Acc: 45.2% | Dist: 84/186
+          Breakdown: [Focal: 0.2751, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.3972]
+[2025-12-31T12:44:29.835289] S3 E  2 | 14.9s | LR: 0.001000 | GradNorm: 1.1476
+   TRAIN: Loss: 0.4794 Acc: 52.4% | Dist: 1929/3683
+          Breakdown: [Focal: 0.2395, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.2895]
+   VAL  : Loss: 0.5554 Acc: 37.6% | Dist: 70/186
+          Breakdown: [Focal: 0.2776, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.8633]
+[2025-12-31T12:44:44.509733] S3 E  3 | 14.7s | LR: 0.001000 | GradNorm: 1.1657
+   TRAIN: Loss: 0.4697 Acc: 53.8% | Dist: 1981/3683
+          Breakdown: [Focal: 0.2347, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.2184]
+   VAL  : Loss: 0.5692 Acc: 38.7% | Dist: 72/186
+          Breakdown: [Focal: 0.2845, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.0990]
+[2025-12-31T12:44:59.182936] S3 E  4 | 14.7s | LR: 0.001000 | GradNorm: 1.2581
+   TRAIN: Loss: 0.4496 Acc: 54.8% | Dist: 2018/3683
+          Breakdown: [Focal: 0.2246, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.1789]
+   VAL  : Loss: 0.5458 Acc: 45.7% | Dist: 85/186
+          Breakdown: [Focal: 0.2726, Ret: 0.0001, Vol: 0.0000, Sharpe: 0.4741]
+[2025-12-31T12:45:13.675139] --- Epoch 5 Ultra-Log Checkpoint ---
+[2025-12-31T12:45:13.675655] S3 E  5 | 14.5s | LR: 0.001000 | GradNorm: 1.3683
+   TRAIN: Loss: 0.4335 Acc: 56.9% | Dist: 2096/3683
+          Breakdown: [Focal: 0.2166, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.2095]
+   VAL  : Loss: 0.5842 Acc: 57.0% | Dist: 106/186
+          Breakdown: [Focal: 0.2919, Ret: 0.0001, Vol: 0.0000, Sharpe: 0.8299]
+[2025-12-31T12:45:28.321910] S3 E  6 | 14.6s | LR: 0.001000 | GradNorm: 1.4489
+   TRAIN: Loss: 0.4181 Acc: 58.2% | Dist: 2143/3683
+          Breakdown: [Focal: 0.2088, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.1925]
+   VAL  : Loss: 0.8093 Acc: 43.5% | Dist: 81/186
+          Breakdown: [Focal: 0.4044, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.1028]
+[2025-12-31T12:45:43.045552] S3 E  7 | 14.7s | LR: 0.000500 | GradNorm: 1.4392
+   TRAIN: Loss: 0.3778 Acc: 60.8% | Dist: 2240/3683
+          Breakdown: [Focal: 0.1887, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.3042]
+   VAL  : Loss: 0.6407 Acc: 44.6% | Dist: 83/186
+          Breakdown: [Focal: 0.3202, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.7721]
+[2025-12-31T12:45:57.647536] S3 E  8 | 14.6s | LR: 0.000500 | GradNorm: 1.3660
+   TRAIN: Loss: 0.3389 Acc: 63.0% | Dist: 2320/3683
+          Breakdown: [Focal: 0.1693, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.3460]
+   VAL  : Loss: 0.7204 Acc: 49.5% | Dist: 92/186
+          Breakdown: [Focal: 0.3601, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.5478]
+[2025-12-31T12:46:12.453388] S3 E  9 | 14.8s | LR: 0.000500 | GradNorm: 1.5523
+   TRAIN: Loss: 0.3197 Acc: 63.4% | Dist: 2334/3683
+          Breakdown: [Focal: 0.1597, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.2667]
+   VAL  : Loss: 0.6725 Acc: 46.8% | Dist: 87/186
+          Breakdown: [Focal: 0.3361, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.9533]
+[2025-12-31T12:46:27.363292] --- Epoch 10 Ultra-Log Checkpoint ---
+[2025-12-31T12:46:27.363801] S3 E 10 | 14.9s | LR: 0.000500 | GradNorm: 1.4635
+   TRAIN: Loss: 0.2993 Acc: 64.0% | Dist: 2356/3683
+          Breakdown: [Focal: 0.1495, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.3756]
+   VAL  : Loss: 1.1714 Acc: 45.7% | Dist: 85/186
+          Breakdown: [Focal: 0.5856, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.4576]
+[2025-12-31T12:46:41.945662] S3 E 11 | 14.6s | LR: 0.000500 | GradNorm: 1.9905
+   TRAIN: Loss: 0.3031 Acc: 64.8% | Dist: 2388/3683
+          Breakdown: [Focal: 0.1514, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.3569]
+   VAL  : Loss: 0.8787 Acc: 50.0% | Dist: 93/186
+          Breakdown: [Focal: 0.4393, Ret: 0.0000, Vol: 0.0000, Sharpe: 0.1925]
+[2025-12-31T12:46:56.520204] S3 E 12 | 14.6s | LR: 0.000500 | GradNorm: 1.7147
+   TRAIN: Loss: 0.2878 Acc: 62.7% | Dist: 2308/3683
+          Breakdown: [Focal: 0.1437, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.2224]
+   VAL  : Loss: 1.0263 Acc: 40.9% | Dist: 76/186
+          Breakdown: [Focal: 0.5131, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.2192]
+[2025-12-31T12:47:11.236562] S3 E 13 | 14.7s | LR: 0.000250 | GradNorm: 1.6261
+   TRAIN: Loss: 0.2383 Acc: 67.4% | Dist: 2482/3683
+          Breakdown: [Focal: 0.1190, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.3544]
+   VAL  : Loss: 1.2370 Acc: 46.2% | Dist: 86/186
+          Breakdown: [Focal: 0.6184, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.9791]
+[2025-12-31T12:47:25.963071] S3 E 14 | 14.7s | LR: 0.000250 | GradNorm: 1.8263
+   TRAIN: Loss: 0.2290 Acc: 67.3% | Dist: 2477/3683
+          Breakdown: [Focal: 0.1144, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.5242]
+   VAL  : Loss: 1.0985 Acc: 44.1% | Dist: 82/186
+          Breakdown: [Focal: 0.5492, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.9413]
+[2025-12-31T12:47:40.775463] --- Epoch 15 Ultra-Log Checkpoint ---
+[2025-12-31T12:47:40.775999] S3 E 15 | 14.8s | LR: 0.000250 | GradNorm: 1.6892
+   TRAIN: Loss: 0.2164 Acc: 68.3% | Dist: 2516/3683
+          Breakdown: [Focal: 0.1081, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.4631]
+   VAL  : Loss: 1.2214 Acc: 44.1% | Dist: 82/186
+          Breakdown: [Focal: 0.6106, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.8178]
+[2025-12-31T12:47:40.776572] EARLY STOPPING at epoch 15. Validation loss hasn't improved in 15 epochs.
+[2025-12-31T12:47:48.355535] SESSION 3 COMPLETE. Best Val Loss: 0.5104
+[2025-12-31T12:47:58.383496] --- SESSION 4 START (DB ID: 290) ---
+[2025-12-31T12:48:04.391334] Train Distribution: Class 0: 878, Class 1: 1816, Class 2: 989
+[2025-12-31T12:48:18.738857] --- Epoch 0 Ultra-Log Checkpoint ---
+[2025-12-31T12:48:18.738857] S4 E  0 | 14.3s | LR: 0.001000 | GradNorm: 1.2905
+   TRAIN: Loss: 0.5132 Acc: 49.1% | Dist: 1807/3683
+          Breakdown: [Focal: 0.2544, Ret: 0.0007, Vol: 0.0010, Sharpe: -0.0351]
+   VAL  : Loss: 0.5509 Acc: 47.8% | Dist: 89/186
+          Breakdown: [Focal: 0.2753, Ret: 0.0000, Vol: 0.0000, Sharpe: 0.6740]
+[2025-12-31T12:48:33.421277] S4 E  1 | 14.7s | LR: 0.001000 | GradNorm: 1.1919
+   TRAIN: Loss: 0.4838 Acc: 51.8% | Dist: 1908/3683
+          Breakdown: [Focal: 0.2417, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.1747]
+   VAL  : Loss: 0.5652 Acc: 37.6% | Dist: 70/186
+          Breakdown: [Focal: 0.2824, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.9954]
+[2025-12-31T12:48:48.016805] S4 E  2 | 14.6s | LR: 0.001000 | GradNorm: 1.3806
+   TRAIN: Loss: 0.4715 Acc: 51.6% | Dist: 1899/3683
+          Breakdown: [Focal: 0.2355, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.2272]
+   VAL  : Loss: 0.5919 Acc: 45.7% | Dist: 85/186
+          Breakdown: [Focal: 0.2958, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.8462]
+[2025-12-31T12:49:02.603646] S4 E  3 | 14.6s | LR: 0.001000 | GradNorm: 1.4162
+   TRAIN: Loss: 0.4551 Acc: 53.6% | Dist: 1973/3683
+          Breakdown: [Focal: 0.2274, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.2919]
+   VAL  : Loss: 0.6582 Acc: 37.6% | Dist: 70/186
+          Breakdown: [Focal: 0.3289, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.9623]
+[2025-12-31T12:49:17.298224] S4 E  4 | 14.7s | LR: 0.001000 | GradNorm: 1.2401
+   TRAIN: Loss: 0.4372 Acc: 57.0% | Dist: 2099/3683
+          Breakdown: [Focal: 0.2184, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.2630]
+   VAL  : Loss: 0.6968 Acc: 44.1% | Dist: 82/186
+          Breakdown: [Focal: 0.3482, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.3319]
+[2025-12-31T12:49:31.880493] --- Epoch 5 Ultra-Log Checkpoint ---
+[2025-12-31T12:49:31.880997] S4 E  5 | 14.6s | LR: 0.001000 | GradNorm: 1.3044
+   TRAIN: Loss: 0.4271 Acc: 57.8% | Dist: 2127/3683
+          Breakdown: [Focal: 0.2133, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.1070]
+   VAL  : Loss: 0.7012 Acc: 40.3% | Dist: 75/186
+          Breakdown: [Focal: 0.3503, Ret: 0.0001, Vol: 0.0001, Sharpe: 0.7318]
+[2025-12-31T12:49:46.503099] S4 E  6 | 14.6s | LR: 0.001000 | GradNorm: 1.5151
+   TRAIN: Loss: 0.4048 Acc: 57.3% | Dist: 2112/3683
+          Breakdown: [Focal: 0.2022, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.1035]
+   VAL  : Loss: 0.7712 Acc: 32.3% | Dist: 60/186
+          Breakdown: [Focal: 0.3855, Ret: 0.0000, Vol: 0.0000, Sharpe: 0.4465]
+[2025-12-31T12:50:01.193625] S4 E  7 | 14.7s | LR: 0.000500 | GradNorm: 1.3603
+   TRAIN: Loss: 0.3706 Acc: 60.2% | Dist: 2217/3683
+          Breakdown: [Focal: 0.1852, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.3447]
+   VAL  : Loss: 0.8627 Acc: 41.4% | Dist: 77/186
+          Breakdown: [Focal: 0.4313, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.7246]
+[2025-12-31T12:50:15.810181] S4 E  8 | 14.6s | LR: 0.000500 | GradNorm: 1.5716
+   TRAIN: Loss: 0.3372 Acc: 62.4% | Dist: 2298/3683
+          Breakdown: [Focal: 0.1685, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.4386]
+   VAL  : Loss: 0.7858 Acc: 36.6% | Dist: 68/186
+          Breakdown: [Focal: 0.3928, Ret: 0.0000, Vol: 0.0000, Sharpe: 0.7066]
+[2025-12-31T12:50:30.386379] S4 E  9 | 14.6s | LR: 0.000500 | GradNorm: 1.4446
+   TRAIN: Loss: 0.3244 Acc: 63.9% | Dist: 2353/3683
+          Breakdown: [Focal: 0.1621, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.4433]
+   VAL  : Loss: 0.8195 Acc: 42.5% | Dist: 79/186
+          Breakdown: [Focal: 0.4097, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.5484]
+[2025-12-31T12:50:45.082736] --- Epoch 10 Ultra-Log Checkpoint ---
+[2025-12-31T12:50:45.083240] S4 E 10 | 14.7s | LR: 0.000500 | GradNorm: 1.5821
+   TRAIN: Loss: 0.3014 Acc: 65.4% | Dist: 2409/3683
+          Breakdown: [Focal: 0.1505, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.3946]
+   VAL  : Loss: 1.0370 Acc: 43.5% | Dist: 81/186
+          Breakdown: [Focal: 0.5184, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.7095]
+[2025-12-31T12:50:59.996178] S4 E 11 | 14.9s | LR: 0.000500 | GradNorm: 1.7294
+   TRAIN: Loss: 0.2861 Acc: 64.1% | Dist: 2360/3683
+          Breakdown: [Focal: 0.1430, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.4397]
+   VAL  : Loss: 1.0165 Acc: 41.9% | Dist: 78/186
+          Breakdown: [Focal: 0.5082, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.1095]
+[2025-12-31T12:51:14.806090] S4 E 12 | 14.8s | LR: 0.000500 | GradNorm: 1.7348
+   TRAIN: Loss: 0.2849 Acc: 63.9% | Dist: 2352/3683
+          Breakdown: [Focal: 0.1423, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.4842]
+   VAL  : Loss: 0.9883 Acc: 43.5% | Dist: 81/186
+          Breakdown: [Focal: 0.4940, Ret: 0.0000, Vol: 0.0000, Sharpe: 0.2773]
+[2025-12-31T12:51:29.728984] S4 E 13 | 14.9s | LR: 0.000250 | GradNorm: 1.5586
+   TRAIN: Loss: 0.2391 Acc: 67.0% | Dist: 2468/3683
+          Breakdown: [Focal: 0.1195, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.4951]
+   VAL  : Loss: 1.1375 Acc: 40.3% | Dist: 75/186
+          Breakdown: [Focal: 0.5687, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.7525]
+[2025-12-31T12:51:44.403977] S4 E 14 | 14.7s | LR: 0.000250 | GradNorm: 1.7150
+   TRAIN: Loss: 0.2419 Acc: 67.3% | Dist: 2480/3683
+          Breakdown: [Focal: 0.1208, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.3673]
+   VAL  : Loss: 1.1428 Acc: 41.9% | Dist: 78/186
+          Breakdown: [Focal: 0.5713, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.1324]
+[2025-12-31T12:51:44.403977] EARLY STOPPING at epoch 14. Validation loss hasn't improved in 15 epochs.
+[2025-12-31T12:51:52.110212] SESSION 4 COMPLETE. Best Val Loss: 0.5104
+[2025-12-31T12:52:02.135182] --- SESSION 5 START (DB ID: 291) ---
+[2025-12-31T12:52:08.258570] Train Distribution: Class 0: 878, Class 1: 1816, Class 2: 989
+[2025-12-31T12:52:23.024954] --- Epoch 0 Ultra-Log Checkpoint ---
+[2025-12-31T12:52:23.025463] S5 E  0 | 14.7s | LR: 0.001000 | GradNorm: 1.3556
+   TRAIN: Loss: 0.5171 Acc: 48.5% | Dist: 1786/3683
+          Breakdown: [Focal: 0.2560, Ret: 0.0008, Vol: 0.0011, Sharpe: -0.1359]
+   VAL  : Loss: 0.5994 Acc: 38.7% | Dist: 72/186
+          Breakdown: [Focal: 0.2996, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.8733]
+[2025-12-31T12:52:37.703567] S5 E  1 | 14.7s | LR: 0.001000 | GradNorm: 1.1388
+   TRAIN: Loss: 0.4818 Acc: 51.7% | Dist: 1903/3683
+          Breakdown: [Focal: 0.2407, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.2666]
+   VAL  : Loss: 0.5937 Acc: 35.5% | Dist: 66/186
+          Breakdown: [Focal: 0.2967, Ret: 0.0000, Vol: 0.0002, Sharpe: -0.2047]
+[2025-12-31T12:52:52.410188] S5 E  2 | 14.7s | LR: 0.001000 | GradNorm: 1.2331
+   TRAIN: Loss: 0.4650 Acc: 53.9% | Dist: 1985/3683
+          Breakdown: [Focal: 0.2322, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.0710]
+   VAL  : Loss: 0.6490 Acc: 33.9% | Dist: 63/186
+          Breakdown: [Focal: 0.3239, Ret: 0.0002, Vol: 0.0001, Sharpe: -0.9914]
+[2025-12-31T12:53:07.024824] S5 E  3 | 14.6s | LR: 0.001000 | GradNorm: 1.4312
+   TRAIN: Loss: 0.4426 Acc: 56.0% | Dist: 2062/3683
+          Breakdown: [Focal: 0.2210, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.2065]
+   VAL  : Loss: 0.6604 Acc: 43.5% | Dist: 81/186
+          Breakdown: [Focal: 0.3301, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.1353]
+[2025-12-31T12:53:21.619995] S5 E  4 | 14.6s | LR: 0.001000 | GradNorm: 1.4071
+   TRAIN: Loss: 0.4212 Acc: 57.5% | Dist: 2119/3683
+          Breakdown: [Focal: 0.2103, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.1750]
+   VAL  : Loss: 0.7367 Acc: 35.5% | Dist: 66/186
+          Breakdown: [Focal: 0.3681, Ret: 0.0001, Vol: 0.0001, Sharpe: 0.7486]
+[2025-12-31T12:53:35.999677] --- Epoch 5 Ultra-Log Checkpoint ---
+[2025-12-31T12:53:36.000191] S5 E  5 | 14.4s | LR: 0.001000 | GradNorm: 1.4038
+   TRAIN: Loss: 0.3989 Acc: 57.5% | Dist: 2119/3683
+          Breakdown: [Focal: 0.1992, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.1400]
+   VAL  : Loss: 0.6722 Acc: 40.3% | Dist: 75/186
+          Breakdown: [Focal: 0.3360, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.5435]
+[2025-12-31T12:53:48.328449] S5 E  6 | 12.3s | LR: 0.001000 | GradNorm: 1.6031
+   TRAIN: Loss: 0.3971 Acc: 57.4% | Dist: 2113/3683
+          Breakdown: [Focal: 0.1983, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.1545]
+   VAL  : Loss: 0.6277 Acc: 44.1% | Dist: 82/186
+          Breakdown: [Focal: 0.3134, Ret: 0.0002, Vol: 0.0001, Sharpe: -0.9418]
+[2025-12-31T12:54:01.233629] S5 E  7 | 12.9s | LR: 0.001000 | GradNorm: 1.4077
+   TRAIN: Loss: 0.3651 Acc: 60.5% | Dist: 2229/3683
+          Breakdown: [Focal: 0.1823, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.1352]
+   VAL  : Loss: 0.7701 Acc: 51.1% | Dist: 95/186
+          Breakdown: [Focal: 0.3835, Ret: 0.0006, Vol: 0.0001, Sharpe: 0.9995]
+[2025-12-31T12:54:13.607059] S5 E  8 | 12.4s | LR: 0.000500 | GradNorm: 1.4942
+   TRAIN: Loss: 0.3296 Acc: 62.0% | Dist: 2282/3683
+          Breakdown: [Focal: 0.1645, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.1165]
+   VAL  : Loss: 0.7476 Acc: 47.8% | Dist: 89/186
+          Breakdown: [Focal: 0.3737, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.7164]
+[2025-12-31T12:54:26.276467] S5 E  9 | 12.7s | LR: 0.000500 | GradNorm: 1.5043
+   TRAIN: Loss: 0.3030 Acc: 64.5% | Dist: 2376/3683
+          Breakdown: [Focal: 0.1514, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.4913]
+   VAL  : Loss: 0.8677 Acc: 38.7% | Dist: 72/186
+          Breakdown: [Focal: 0.4338, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.7680]
+[2025-12-31T12:54:39.625261] --- Epoch 10 Ultra-Log Checkpoint ---
+[2025-12-31T12:54:39.625261] S5 E 10 | 13.3s | LR: 0.000500 | GradNorm: 1.6008
+   TRAIN: Loss: 0.2894 Acc: 63.8% | Dist: 2348/3683
+          Breakdown: [Focal: 0.1446, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.4736]
+   VAL  : Loss: 0.8663 Acc: 46.2% | Dist: 86/186
+          Breakdown: [Focal: 0.4331, Ret: 0.0000, Vol: 0.0000, Sharpe: 0.4217]
+[2025-12-31T12:54:54.380196] S5 E 11 | 14.7s | LR: 0.000500 | GradNorm: 1.7802
+   TRAIN: Loss: 0.2645 Acc: 66.7% | Dist: 2457/3683
+          Breakdown: [Focal: 0.1321, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.3974]
+   VAL  : Loss: 1.1316 Acc: 48.9% | Dist: 91/186
+          Breakdown: [Focal: 0.5658, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.8608]
+[2025-12-31T12:55:07.239018] S5 E 12 | 12.9s | LR: 0.000500 | GradNorm: 1.8199
+   TRAIN: Loss: 0.2650 Acc: 64.8% | Dist: 2388/3683
+          Breakdown: [Focal: 0.1324, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.4795]
+   VAL  : Loss: 1.1402 Acc: 45.7% | Dist: 85/186
+          Breakdown: [Focal: 0.5701, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.5585]
+[2025-12-31T12:55:20.055960] S5 E 13 | 12.8s | LR: 0.000500 | GradNorm: 1.7700
+   TRAIN: Loss: 0.2285 Acc: 66.7% | Dist: 2456/3683
+          Breakdown: [Focal: 0.1141, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.4118]
+   VAL  : Loss: 1.1951 Acc: 48.9% | Dist: 91/186
+          Breakdown: [Focal: 0.5975, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.9020]
+[2025-12-31T12:55:32.537301] S5 E 14 | 12.5s | LR: 0.000250 | GradNorm: 1.6134
+   TRAIN: Loss: 0.2128 Acc: 67.6% | Dist: 2490/3683
+          Breakdown: [Focal: 0.1063, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.4958]
+   VAL  : Loss: 1.4744 Acc: 45.2% | Dist: 84/186
+          Breakdown: [Focal: 0.7371, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.8832]
+[2025-12-31T12:55:32.537301] EARLY STOPPING at epoch 14. Validation loss hasn't improved in 15 epochs.
+[2025-12-31T12:55:40.158449] SESSION 5 COMPLETE. Best Val Loss: 0.5104
+[2025-12-31T12:55:50.185171] --- SESSION 6 START (DB ID: 292) ---
+[2025-12-31T12:55:56.056414] Train Distribution: Class 0: 878, Class 1: 1816, Class 2: 989
+[2025-12-31T12:56:11.187577] --- Epoch 0 Ultra-Log Checkpoint ---
+[2025-12-31T12:56:11.188607] S6 E  0 | 15.1s | LR: 0.001000 | GradNorm: 1.3297
+   TRAIN: Loss: 0.5123 Acc: 49.2% | Dist: 1811/3683
+          Breakdown: [Focal: 0.2541, Ret: 0.0006, Vol: 0.0009, Sharpe: -0.1182]
+   VAL  : Loss: 0.6545 Acc: 38.2% | Dist: 71/186
+          Breakdown: [Focal: 0.3271, Ret: 0.0000, Vol: 0.0001, Sharpe: 0.1174]
+[2025-12-31T12:56:26.016540] S6 E  1 | 14.8s | LR: 0.001000 | GradNorm: 1.2498
+   TRAIN: Loss: 0.4855 Acc: 51.5% | Dist: 1898/3683
+          Breakdown: [Focal: 0.2425, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.2107]
+   VAL  : Loss: 0.6714 Acc: 34.9% | Dist: 65/186
+          Breakdown: [Focal: 0.3355, Ret: 0.0000, Vol: 0.0001, Sharpe: 0.6100]
+[2025-12-31T12:56:40.624199] S6 E  2 | 14.6s | LR: 0.001000 | GradNorm: 1.2834
+   TRAIN: Loss: 0.4658 Acc: 53.1% | Dist: 1954/3683
+          Breakdown: [Focal: 0.2327, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.1440]
+   VAL  : Loss: 0.6046 Acc: 46.2% | Dist: 86/186
+          Breakdown: [Focal: 0.3022, Ret: 0.0000, Vol: 0.0000, Sharpe: 0.1428]
+[2025-12-31T12:56:55.344386] S6 E  3 | 14.7s | LR: 0.001000 | GradNorm: 1.2092
+   TRAIN: Loss: 0.4611 Acc: 53.2% | Dist: 1960/3683
+          Breakdown: [Focal: 0.2304, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.1610]
+   VAL  : Loss: 0.6680 Acc: 45.2% | Dist: 84/186
+          Breakdown: [Focal: 0.3337, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.8924]
+[2025-12-31T12:57:10.132738] S6 E  4 | 14.8s | LR: 0.001000 | GradNorm: 1.4002
+   TRAIN: Loss: 0.4238 Acc: 55.7% | Dist: 2053/3683
+          Breakdown: [Focal: 0.2115, Ret: 0.0001, Vol: 0.0002, Sharpe: -0.1177]
+   VAL  : Loss: 0.6477 Acc: 41.4% | Dist: 77/186
+          Breakdown: [Focal: 0.3237, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.4913]
+[2025-12-31T12:57:25.238833] --- Epoch 5 Ultra-Log Checkpoint ---
+[2025-12-31T12:57:25.238833] S6 E  5 | 15.1s | LR: 0.001000 | GradNorm: 1.5541
+   TRAIN: Loss: 0.4349 Acc: 54.4% | Dist: 2003/3683
+          Breakdown: [Focal: 0.2173, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.2624]
+   VAL  : Loss: 0.7754 Acc: 33.3% | Dist: 62/186
+          Breakdown: [Focal: 0.3875, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.6633]
+[2025-12-31T12:57:40.585124] S6 E  6 | 15.3s | LR: 0.001000 | GradNorm: 1.4920
+   TRAIN: Loss: 0.4105 Acc: 55.3% | Dist: 2036/3683
+          Breakdown: [Focal: 0.2050, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.1846]
+   VAL  : Loss: 0.5866 Acc: 39.8% | Dist: 74/186
+          Breakdown: [Focal: 0.2932, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.4308]
+[2025-12-31T12:57:55.711490] S6 E  7 | 15.1s | LR: 0.001000 | GradNorm: 1.5641
+   TRAIN: Loss: 0.3849 Acc: 58.8% | Dist: 2167/3683
+          Breakdown: [Focal: 0.1922, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.0642]
+   VAL  : Loss: 0.6825 Acc: 39.2% | Dist: 73/186
+          Breakdown: [Focal: 0.3411, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.6761]
+[2025-12-31T12:58:11.021517] S6 E  8 | 15.3s | LR: 0.001000 | GradNorm: 1.5566
+   TRAIN: Loss: 0.3755 Acc: 60.4% | Dist: 2224/3683
+          Breakdown: [Focal: 0.1875, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.0758]
+   VAL  : Loss: 1.0095 Acc: 39.8% | Dist: 74/186
+          Breakdown: [Focal: 0.5046, Ret: 0.0000, Vol: 0.0000, Sharpe: 0.1562]
+[2025-12-31T12:58:26.250366] S6 E  9 | 15.2s | LR: 0.001000 | GradNorm: 1.5860
+   TRAIN: Loss: 0.3644 Acc: 59.2% | Dist: 2179/3683
+          Breakdown: [Focal: 0.1820, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.1559]
+   VAL  : Loss: 0.7078 Acc: 39.8% | Dist: 74/186
+          Breakdown: [Focal: 0.3538, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.8300]
+[2025-12-31T12:58:40.852932] --- Epoch 10 Ultra-Log Checkpoint ---
+[2025-12-31T12:58:40.853459] S6 E 10 | 14.6s | LR: 0.001000 | GradNorm: 1.6935
+   TRAIN: Loss: 0.3675 Acc: 58.3% | Dist: 2148/3683
+          Breakdown: [Focal: 0.1835, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.1399]
+   VAL  : Loss: 0.8954 Acc: 41.9% | Dist: 78/186
+          Breakdown: [Focal: 0.4476, Ret: 0.0000, Vol: 0.0001, Sharpe: -0.3305]
+[2025-12-31T12:58:55.870024] S6 E 11 | 15.0s | LR: 0.001000 | GradNorm: 1.6295
+   TRAIN: Loss: 0.3206 Acc: 61.8% | Dist: 2276/3683
+          Breakdown: [Focal: 0.1601, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.1691]
+   VAL  : Loss: 1.0003 Acc: 42.5% | Dist: 79/186
+          Breakdown: [Focal: 0.5001, Ret: 0.0000, Vol: 0.0001, Sharpe: -0.0941]
+[2025-12-31T12:59:10.758430] S6 E 12 | 14.9s | LR: 0.001000 | GradNorm: 1.7249
+   TRAIN: Loss: 0.3161 Acc: 62.4% | Dist: 2298/3683
+          Breakdown: [Focal: 0.1579, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.2009]
+   VAL  : Loss: 0.9292 Acc: 38.7% | Dist: 72/186
+          Breakdown: [Focal: 0.4644, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.9870]
+[2025-12-31T12:59:25.547306] S6 E 13 | 14.8s | LR: 0.000500 | GradNorm: 1.8128
+   TRAIN: Loss: 0.2665 Acc: 65.9% | Dist: 2426/3683
+          Breakdown: [Focal: 0.1331, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.3299]
+   VAL  : Loss: 1.2143 Acc: 43.0% | Dist: 80/186
+          Breakdown: [Focal: 0.6071, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.6782]
+[2025-12-31T12:59:40.362563] S6 E 14 | 14.8s | LR: 0.000500 | GradNorm: 1.6363
+   TRAIN: Loss: 0.2708 Acc: 64.9% | Dist: 2389/3683
+          Breakdown: [Focal: 0.1353, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.5781]
+   VAL  : Loss: 0.9830 Acc: 39.2% | Dist: 73/186
+          Breakdown: [Focal: 0.4914, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.7448]
+[2025-12-31T12:59:40.363066] EARLY STOPPING at epoch 14. Validation loss hasn't improved in 15 epochs.
+[2025-12-31T12:59:48.138562] SESSION 6 COMPLETE. Best Val Loss: 0.5104
+[2025-12-31T12:59:58.165316] --- SESSION 7 START (DB ID: 293) ---
+[2025-12-31T13:00:04.121391] Train Distribution: Class 0: 878, Class 1: 1816, Class 2: 989
+[2025-12-31T13:00:19.137618] --- Epoch 0 Ultra-Log Checkpoint ---
+[2025-12-31T13:00:19.138121] S7 E  0 | 15.0s | LR: 0.001000 | GradNorm: 1.4151
+   TRAIN: Loss: 0.5045 Acc: 49.6% | Dist: 1828/3683
+          Breakdown: [Focal: 0.2488, Ret: 0.0011, Vol: 0.0011, Sharpe: -0.0549]
+   VAL  : Loss: 0.6411 Acc: 36.6% | Dist: 68/186
+          Breakdown: [Focal: 0.3204, Ret: 0.0000, Vol: 0.0002, Sharpe: 0.3030]
+[2025-12-31T13:00:34.538658] S7 E  1 | 15.4s | LR: 0.001000 | GradNorm: 1.2489
+   TRAIN: Loss: 0.4875 Acc: 51.8% | Dist: 1909/3683
+          Breakdown: [Focal: 0.2436, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.3176]
+   VAL  : Loss: 0.6084 Acc: 36.6% | Dist: 68/186
+          Breakdown: [Focal: 0.3041, Ret: 0.0000, Vol: 0.0002, Sharpe: -0.9431]
+[2025-12-31T13:00:50.346569] S7 E  2 | 15.8s | LR: 0.001000 | GradNorm: 1.2471
+   TRAIN: Loss: 0.4642 Acc: 53.1% | Dist: 1956/3683
+          Breakdown: [Focal: 0.2317, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.0597]
+   VAL  : Loss: 0.5987 Acc: 41.9% | Dist: 78/186
+          Breakdown: [Focal: 0.2992, Ret: 0.0001, Vol: 0.0000, Sharpe: 0.1604]
+[2025-12-31T13:01:05.972846] S7 E  3 | 15.6s | LR: 0.001000 | GradNorm: 1.2812
+   TRAIN: Loss: 0.4393 Acc: 56.5% | Dist: 2082/3683
+          Breakdown: [Focal: 0.2195, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.2680]
+   VAL  : Loss: 0.5828 Acc: 40.3% | Dist: 75/186
+          Breakdown: [Focal: 0.2913, Ret: 0.0000, Vol: 0.0001, Sharpe: -0.7252]
+[2025-12-31T13:01:21.155326] S7 E  4 | 15.1s | LR: 0.001000 | GradNorm: 1.3149
+   TRAIN: Loss: 0.4351 Acc: 55.1% | Dist: 2028/3683
+          Breakdown: [Focal: 0.2172, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.0883]
+   VAL  : Loss: 0.5570 Acc: 48.9% | Dist: 91/186
+          Breakdown: [Focal: 0.2784, Ret: 0.0000, Vol: 0.0000, Sharpe: 0.0687]
+[2025-12-31T13:01:36.463729] --- Epoch 5 Ultra-Log Checkpoint ---
+[2025-12-31T13:01:36.465265] S7 E  5 | 15.3s | LR: 0.001000 | GradNorm: 1.3558
+   TRAIN: Loss: 0.3888 Acc: 60.0% | Dist: 2208/3683
+          Breakdown: [Focal: 0.1943, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.4220]
+   VAL  : Loss: 0.7758 Acc: 37.6% | Dist: 70/186
+          Breakdown: [Focal: 0.3877, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.9547]
+[2025-12-31T13:01:51.894399] S7 E  6 | 15.4s | LR: 0.001000 | GradNorm: 1.3976
+   TRAIN: Loss: 0.3838 Acc: 58.7% | Dist: 2163/3683
+          Breakdown: [Focal: 0.1918, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.2048]
+   VAL  : Loss: 0.9363 Acc: 32.3% | Dist: 60/186
+          Breakdown: [Focal: 0.4680, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.9549]
+[2025-12-31T13:02:07.211713] S7 E  7 | 15.3s | LR: 0.001000 | GradNorm: 1.5643
+   TRAIN: Loss: 0.3912 Acc: 56.8% | Dist: 2092/3683
+          Breakdown: [Focal: 0.1955, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.3811]
+   VAL  : Loss: 0.7084 Acc: 40.3% | Dist: 75/186
+          Breakdown: [Focal: 0.3541, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.1895]
+[2025-12-31T13:02:22.471762] S7 E  8 | 15.3s | LR: 0.001000 | GradNorm: 1.5012
+   TRAIN: Loss: 0.3587 Acc: 60.1% | Dist: 2214/3683
+          Breakdown: [Focal: 0.1792, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.3392]
+   VAL  : Loss: 0.8348 Acc: 45.7% | Dist: 85/186
+          Breakdown: [Focal: 0.4173, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.1301]
+[2025-12-31T13:02:37.626475] S7 E  9 | 15.2s | LR: 0.001000 | GradNorm: 1.5663
+   TRAIN: Loss: 0.3400 Acc: 61.9% | Dist: 2279/3683
+          Breakdown: [Focal: 0.1698, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.2107]
+   VAL  : Loss: 0.9575 Acc: 38.7% | Dist: 72/186
+          Breakdown: [Focal: 0.4785, Ret: 0.0001, Vol: 0.0002, Sharpe: -0.9207]
+[2025-12-31T13:02:53.016905] --- Epoch 10 Ultra-Log Checkpoint ---
+[2025-12-31T13:02:53.016905] S7 E 10 | 15.4s | LR: 0.001000 | GradNorm: 1.5647
+   TRAIN: Loss: 0.3409 Acc: 61.9% | Dist: 2278/3683
+          Breakdown: [Focal: 0.1702, Ret: 0.0001, Vol: 0.0001, Sharpe: -0.1566]
+   VAL  : Loss: 1.0002 Acc: 46.8% | Dist: 87/186
+          Breakdown: [Focal: 0.4991, Ret: 0.0004, Vol: 0.0001, Sharpe: 0.7803]
+[2025-12-31T13:03:08.515209] S7 E 11 | 15.5s | LR: 0.000500 | GradNorm: 1.5114
+   TRAIN: Loss: 0.2973 Acc: 64.7% | Dist: 2384/3683
+          Breakdown: [Focal: 0.1484, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.2744]
+   VAL  : Loss: 1.2630 Acc: 45.7% | Dist: 85/186
+          Breakdown: [Focal: 0.6314, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.1607]
+[2025-12-31T13:03:23.665265] S7 E 12 | 15.1s | LR: 0.000500 | GradNorm: 1.5193
+   TRAIN: Loss: 0.2664 Acc: 65.5% | Dist: 2411/3683
+          Breakdown: [Focal: 0.1330, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.3287]
+   VAL  : Loss: 1.4600 Acc: 44.6% | Dist: 83/186
+          Breakdown: [Focal: 0.7299, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.2664]
+[2025-12-31T13:03:38.783510] S7 E 13 | 15.1s | LR: 0.000500 | GradNorm: 1.7443
+   TRAIN: Loss: 0.2344 Acc: 66.7% | Dist: 2457/3683
+          Breakdown: [Focal: 0.1171, Ret: 0.0001, Vol: 0.0000, Sharpe: -0.3580]
+   VAL  : Loss: 1.3703 Acc: 44.6% | Dist: 83/186
+          Breakdown: [Focal: 0.6851, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.9664]
+[2025-12-31T13:03:53.153104] S7 E 14 | 14.4s | LR: 0.000500 | GradNorm: 1.6157
+   TRAIN: Loss: 0.2415 Acc: 66.9% | Dist: 2465/3683
+          Breakdown: [Focal: 0.1206, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.5027]
+   VAL  : Loss: 1.6477 Acc: 43.0% | Dist: 80/186
+          Breakdown: [Focal: 0.8238, Ret: 0.0000, Vol: 0.0000, Sharpe: -0.8290]
+[2025-12-31T13:03:53.153640] EARLY STOPPING at epoch 14. Validation loss hasn't improved in 15 epochs.

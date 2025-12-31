@@ -1,0 +1,13 @@
+alpaca-py
+pandas
+numpy
+python-dotenv
+ta
+matplotlib
+scikit-learn
+yfinance
+torch
+tensorboard
+flask
+flask-cors
+sqlalchemy
